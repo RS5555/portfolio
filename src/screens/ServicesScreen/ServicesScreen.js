@@ -30,7 +30,7 @@ export default function ServicesScreen() {
                   <p className="text-sm font-medium text-indigo-600">
                     
                   </p>
-                  <a href="#" className="mt-2 block">
+                  <a href="/" className="mt-2 block">
                     <p className="text-xl font-semibold text-gray-900">
                       App Development
                     </p>
@@ -66,7 +66,7 @@ export default function ServicesScreen() {
                   <p className="text-sm font-medium text-indigo-600">
                     
                   </p>
-                  <a href="#" className="mt-2 block">
+                  <a href="/" className="mt-2 block">
                     <p className="text-xl font-semibold text-gray-900">
                       How to use search engine optimization to drive sales
                     </p>
@@ -80,7 +80,7 @@ export default function ServicesScreen() {
                 </div>
                 <div className="mt-6 flex items-center">
                   <div className="flex-shrink-0">
-                    <a href="#">
+                    <a href="/">
                       <span className="sr-only">Brenna Goyette</span>
                       <img
                         className="h-10 w-10 rounded-full"
@@ -116,7 +116,7 @@ export default function ServicesScreen() {
                   <p className="text-sm font-medium text-indigo-600">
                     
                   </p>
-                  <a href="#" className="mt-2 block">
+                  <a href="/" className="mt-2 block">
                     <p className="text-xl font-semibold text-gray-900">
                       Improve your customer experience
                     </p>
@@ -130,7 +130,7 @@ export default function ServicesScreen() {
                 </div>
                 <div className="mt-6 flex items-center">
                   <div className="flex-shrink-0">
-                    <a href="#">
+                    <a href="/">
                       <span className="sr-only">Daniela Metz</span>
                       <img
                         className="h-10 w-10 rounded-full"

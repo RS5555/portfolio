@@ -5,7 +5,7 @@ import background from "../../assets/Background3.png";
 import { ReactTyped } from "react-typed";
 import { FiDownload } from "react-icons/fi";
 import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 // import { Link } from "react-router-dom";
 
 export default function HomeScreen() {
@@ -94,12 +94,13 @@ export default function HomeScreen() {
           <img
             src={background}
             className="lg:w-[370px] lg:h-[370px] w-[265px] h-[265px] relative custom-spin-animation "
+            alt=""
           />
         </div>
 
         <div className="rounded-full bg-gradient-to-br from-rose-600 relative to-purple-800 lg:h-[320px] lg:w-[320px] h-[230px] w-[230px] flex items-center justify-center">
           <div className="w-[260px] lg:w-[355px] absolute">
-            <img src={profile} className=" w-[390px] " />
+            <img src={profile} className=" w-[390px] " alt=""/>
           </div>
         </div>
       </div>
@@ -107,17 +108,3 @@ export default function HomeScreen() {
   );
 }
 
-{
-  /* <div className="lg:w-[50%] lg:h-[700px] w-full h-full flex justify-center items-center ">
-        <div className="flex justify-center items-center shadow-2xl bg-gradient-to-br from-rose-600 relative to-purple-800 lg:h-[320px] lg:w-[400px] h-[230px] w-[230px]">
-          <div className="w-[260px] lg:w-[400px] lg:pb-24 pb-5">
-            <img
-              src={profile}
-              className="w-[385px]"
-              style={{ margin: "auto" }}
-              alt="Profile"
-            />
-          </div>
-        </div>
-      </div> */
-}

@@ -1,158 +1,32 @@
 import React from "react";
-
+import "./Services.css";
 export default function ServicesScreen() {
   return (
-    <div>
-      <div className="relative bg-slate-100 px-6 pt-16 pb-20 lg:px-8 lg:pt-24 lg:pb-28">
-        <div className="absolute inset-0">
-          <div className="h-1/3 bg-slate-100 sm:h-2/3"></div>
+    <div className=" ">
+      <div className="lg:h-[500px] w-full lg:flex lg:justify-evenly items-center space-y-14">
+        <div className="card mx-auto lg:mx-0 mt-14">
+          <p className="heading">UI/UX Design</p>
+          <p>
+            Create a beutiful and useful UI display for ease of use of the
+            application of user
+          </p>
+          {/* <p>Uiverse</p> */}
         </div>
-        <div className="relative mx-auto max-w-7xl">
-          <div className="text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Column me neatly.
-            </h2>
-            <p className="mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
-              This is your life and it's ending one minute @ a time...
-            </p>
-          </div>
-          <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
-            <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
-              <div className="flex-shrink-0">
-                <img
-                  className="h-48 w-full object-cover"
-                  src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1679&amp;q=80"
-                  alt=""
-                />
-              </div>
-              <div className="flex flex-1 flex-col justify-between bg-white p-6">
-                <div className="flex-1">
-                  <p className="text-sm font-medium text-indigo-600">
-                    
-                  </p>
-                  <a href="/" className="mt-2 block">
-                    <p className="text-xl font-semibold text-gray-900">
-                      App Development
-                    </p>
-                    <p className="mt-3 text-base text-gray-500">
-                      As a frontend developer, I specialize in crafting dynamic
-                      and interactive web applications tailored to meet your
-                      unique business needs. Leveraging the latest frontend
-                      technologies and best practices, I transform ideas into
-                      robust and user-friendly web experiences.
-                    </p>
-                  </a>
-                </div>
-                <div className="mt-6 flex items-center">
-                  <div className="ml-3">
-                    <p className="text-sm font-medium text-gray-900">
-                      
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
-              <div className="flex-shrink-0">
-                <img
-                  className="h-48 w-full object-cover"
-                  src="https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1679&amp;q=80"
-                  alt=""
-                />
-              </div>
-              <div className="flex flex-1 flex-col justify-between bg-white p-6">
-                <div className="flex-1">
-                  <p className="text-sm font-medium text-indigo-600">
-                    
-                  </p>
-                  <a href="/" className="mt-2 block">
-                    <p className="text-xl font-semibold text-gray-900">
-                      How to use search engine optimization to drive sales
-                    </p>
-                    <p className="mt-3 text-base text-gray-500">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Velit facilis asperiores porro quaerat doloribus, eveniet
-                      dolore. Adipisci tempora aut inventore optio animi.,
-                      tempore temporibus quo laudantium.
-                    </p>
-                  </a>
-                </div>
-                <div className="mt-6 flex items-center">
-                  <div className="flex-shrink-0">
-                    <a href="/">
-                      <span className="sr-only">Brenna Goyette</span>
-                      <img
-                        className="h-10 w-10 rounded-full"
-                        src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80"
-                        alt=""
-                      />
-                    </a>
-                  </div>
-                  <div className="ml-3">
-                    <p className="text-sm font-medium text-gray-900">
-                      
-                    </p>
-                    <div className="flex space-x-1 text-sm text-gray-500">
-                      <time datetime="2020-03-10">Mar 10, 2020</time>
-                      <span aria-hidden="true">·</span>
-                      <span>4 min read</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex flex-col overflow-hidden rounded-lg shadow-lg">
-              <div className="flex-shrink-0">
-                <img
-                  className="h-48 w-full object-cover"
-                  src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1679&amp;q=80"
-                  alt=""
-                />
-              </div>
-              <div className="flex flex-1 flex-col justify-between bg-white p-6">
-                <div className="flex-1">
-                  <p className="text-sm font-medium text-indigo-600">
-                    
-                  </p>
-                  <a href="/" className="mt-2 block">
-                    <p className="text-xl font-semibold text-gray-900">
-                      Improve your customer experience
-                    </p>
-                    <p className="mt-3 text-base text-gray-500">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Sint harum rerum voluptatem quo recusandae magni placeat
-                      saepe molestiae, sed excepturi cumque corporis perferendis
-                      hic.
-                    </p>
-                  </a>
-                </div>
-                <div className="mt-6 flex items-center">
-                  <div className="flex-shrink-0">
-                    <a href="/">
-                      <span className="sr-only">Daniela Metz</span>
-                      <img
-                        className="h-10 w-10 rounded-full"
-                        src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80"
-                        alt=""
-                      />
-                    </a>
-                  </div>
-                  <div className="ml-3">
-                    <p className="text-sm font-medium text-gray-900">
-                      
-                    </p>
-                    <div className="flex space-x-1 text-sm text-gray-500">
-                      <time datetime="2020-02-12">Feb 12, 2020</time>
-                      <span aria-hidden="true">·</span>
-                      <span>11 min read</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div className="card mx-auto lg:mx-0 mt-14">
+          <p className="heading">Web Programming</p>
+          <p>
+            Build a quality website with the best technology and optimization on
+            search engine.
+          </p>
+          {/* <p>Uiverse</p> */}
+        </div>
+        <div className="card mx-auto lg:mx-0 mt-14">
+          <p className="heading">Mobile App Development</p>
+          <p>
+            Create an app from your own business for a more professional
+            business performance.
+          </p>
+          {/* <p>Uiverse</p> */}
         </div>
       </div>
     </div>

@@ -9,24 +9,42 @@ import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 // import { Link } from "react-router-dom";
 
 export default function HomeScreen() {
+  const handleDownload = () => {
+    // Replace 'your-cv-file.pdf' with the actual file name of your CV
+    const cvUrl = "https://cvserver-87ny.onrender.com/cv";
+
+    // Create a temporary link element
+    const link = document.createElement("a");
+    link.href = cvUrl;
+    link.download = "your-cv-file.pdf"; // Set the default file name for download
+    document.body.appendChild(link);
+
+    // Trigger the click event to start the download
+    link.click();
+
+    // Clean up: remove the temporary link element from the document
+    document.body.removeChild(link);
+  };
+
   return (
-    <div className="w-full h-full lg:flex flex-row bg-slate-100 lg:pt-20 lg:pl-20 lg:pr-20 p-10">
+    <div className="w-full h-full lg:flex flex-row bg-black lg:pt-20 lg:pl-20 lg:pr-20 p-10">
       <div className="lg:w-[70%] w-full h-[550px] lg:h-[520px] flex flex-col items-start justify-center lg:text-start ">
         <div>
-          <span className="lg:text-sm text-sm font-bold text-gray-500">
-            WELCOME TO MY WORLD
-          </span>
+          <span className="lg:text-3xl text-2xl text-white">I'm</span>
         </div>
         <div>
-          <h1 className="lg:text-5xl text-5xl font-bold mb-3">Hi I'm Rohit</h1>
+          <h1 className="lg:text-5xl text-start text-4xl font-bold mb-3 text-white">
+            Rohit Sawant
+          </h1>
         </div>
         <div>
-          <h1 className="bg-gradient-to-br from-rose-600 mb-3 to-fuchsia-800 text-transparent bg-clip-text lg:text-3xl text-2xl font-bold">
+          <h1 className="bg-gradient-to-br from-rose-600 mb-3 to-fuchsia-600 text-transparent bg-clip-text lg:text-3xl text-2xl font-bold">
             <ReactTyped
               strings={[
                 "Leverage Your Business",
-                "Seamless Solution",
-                "Designer",
+                "Designing with user-centric focus.",
+                "Weaving Innovation into User Interfaces",
+                "Elevating interfaces with precision.",
               ]}
               typeSpeed={50}
               loop
@@ -37,16 +55,21 @@ export default function HomeScreen() {
           </h1>
         </div>
         <div className="w-[95%] mb-10">
-          <p className="lg:text-sm text-sm flex text-gray-500 text-justify">
-            I thrive in collaborative environments, where I actively contribute
-            ideas and solutions to drive project success. My strong
-            understanding of mobile development principles, coupled with my
-            problem-solving skills, enables me to tackle challenges efficiently
-            and deliver high-quality solutions within tight deadlines.
+          <p className="lg:text-lg text-lg flex text-white text-justify">
+            As a seasoned MERN Developer, I bring forth a rich tapestry of
+            experience and technical prowess that resonates with innovation,
+            collaboration, and an unwavering dedication to frontend and
+            full-stack excellence. Throughout my career journey, I've
+            meticulously honed my craft, navigating through the ever-evolving
+            landscape of web development with an insatiable appetite for
+            learning and a relentless pursuit of excellence.
           </p>
         </div>
         <div className="w-[95%] flex ">
-          <button className="bg-gradient-to-br from-rose-600 mb-3 to-fuchsia-800 text-white font-bold py-2 px-4 rounded flex">
+          <button
+            onClick={handleDownload}
+            className="bg-gradient-to-br from-rose-600 mb-3 to-fuchsia-800 text-white font-bold py-2 px-4 rounded flex"
+          >
             Download CV
             <FiDownload size={22} className="ml-3" />
           </button>
@@ -66,23 +89,23 @@ export default function HomeScreen() {
           </div>
           <div className="ml-3">
             <button className="border-4 border-rose-600 text-blue-500 font-bold py-2 px-2 rounded-full">
-            <a
-                href="https://www.instagram.com"
+              <a
+                href="https://github.com/RS5555"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-              <FaGithub size={20} className="" />
+                <FaGithub size={20} className="" />
               </a>
             </button>
           </div>
           <div className="ml-3">
             <button className="border-4 border-rose-600 text-blue-500 font-bold py-2 px-2 rounded-full">
-            <a
-                href="https://www.instagram.com"
+              <a
+                href="https://www.linkedin.com/in/rohitvsawant/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-              <FaLinkedinIn size={20} className="" />
+                <FaLinkedinIn size={20} className="" />
               </a>
             </button>
           </div>
@@ -100,11 +123,10 @@ export default function HomeScreen() {
 
         <div className="rounded-full bg-gradient-to-br from-rose-600 relative to-purple-800 lg:h-[320px] lg:w-[320px] h-[230px] w-[230px] flex items-center justify-center">
           <div className="w-[260px] lg:w-[355px] absolute">
-            <img src={profile} className=" w-[390px] " alt=""/>
+            <img src={profile} className=" w-[390px] " alt="" />
           </div>
         </div>
       </div>
     </div>
   );
 }
-

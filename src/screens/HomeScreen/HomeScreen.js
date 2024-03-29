@@ -27,7 +27,7 @@ export default function HomeScreen() {
   };
 
   return (
-    <div className="w-full h-full lg:flex flex-row bg-black lg:pt-20 lg:pl-20 lg:pr-20 p-10">
+    <div className="w-full h-full lg:flex flex-row bg-black lg:pt-20 lg:pl-20 lg:pr-20 p-10 pt-32">
       <div className="lg:w-[70%] w-full h-[550px] lg:h-[520px] flex flex-col items-start justify-center lg:text-start ">
         <div>
           <span className="lg:text-3xl text-2xl text-white">I'm</span>
@@ -42,9 +42,9 @@ export default function HomeScreen() {
             <ReactTyped
               strings={[
                 "Leverage Your Business",
-                "Designing with user-centric focus.",
-                "Weaving Innovation into User Interfaces",
-                "Elevating interfaces with precision.",
+                // "Designing with user-centric focus.",
+                // "Weaving Innovation into User Interfaces",
+                // "Elevating interfaces with precision.",
               ]}
               typeSpeed={50}
               loop
@@ -54,7 +54,7 @@ export default function HomeScreen() {
             />
           </h1>
         </div>
-        <div className="w-[95%] mb-10">
+        <div className="lg:w-[95%] w-[100%] mb-10">
           <p className="lg:text-lg text-lg flex text-white text-justify">
             As a seasoned MERN Developer, I bring forth a rich tapestry of
             experience and technical prowess that resonates with innovation,
@@ -112,17 +112,17 @@ export default function HomeScreen() {
         </div>
       </div>
 
-      <div className="lg:w-[30%] w-full h-full flex justify-center items-center animate-custom-bounce mt-20 lg:mt-20 ">
-        <div className="lg:w-[370px] lg:h-[370px] w-[265px] h-[265px] h absolute bg-white rounded-full shadow-2xl">
+      <div className="lg:w-[30%] w-full h-[300px] flex justify-center items-center animate-custom-bounce mt-40 lg:mt-20 ">
+        <div className="lg:w-[340px] lg:h-[340px] w-[265px] h-[265px] h absolute bg-white rounded-full shadow-2xl">
           <img
             src={background}
-            className="lg:w-[370px] lg:h-[370px] w-[265px] h-[265px] relative custom-spin-animation "
+            className="lg:w-[340px] lg:h-[340px] w-[265px] h-[265px] relative custom-spin-animation "
             alt=""
           />
         </div>
 
-        <div className="rounded-full bg-gradient-to-br from-rose-600 relative to-purple-800 lg:h-[320px] lg:w-[320px] h-[230px] w-[230px] flex items-center justify-center">
-          <div className="w-[260px] lg:w-[355px] absolute">
+        <div className="rounded-full bg-gradient-to-br from-rose-600 relative to-purple-800 lg:h-[290px] lg:w-[290px] h-[230px] w-[230px] flex items-center justify-center">
+          <div className="w-[230px] lg:w-[325px] absolute">
             <img src={profile} className=" w-[390px] " alt="" />
           </div>
         </div>

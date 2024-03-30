@@ -1,0 +1,26 @@
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.custom-spin-animation {
+  animation: spin 12s linear infinite; /* Adjust the duration (5s) to control the speed */
+}
+
+@keyframes custom-bounce {
+  0%,
+  100% {
+    transform: translateY(-25%);
+  }
+  50% {
+    transform: translateY(0%);
+  }
+}
+
+.animate-custom-bounce {
+  animation: custom-bounce 5s ease-in-out infinite;
+}

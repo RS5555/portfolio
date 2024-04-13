@@ -36,7 +36,7 @@ export default function AboutScreen() {
             About Me
           </span>
         </h3>
-        <h3 className="lg:text-4xl text-4xl font-bold  text-left lg:mt-3 mt-6 bg-gradient-to-br from-rose-600 mb-3 to-fuchsia-600 text-transparent bg-clip-text">
+        <h3 className="lg:text-3xl text-3xl font-bold  text-left lg:mt-3 mt-6 bg-gradient-to-br from-rose-600 mb-3 to-fuchsia-600 text-transparent bg-clip-text">
           1.3 Year's Experience on Frontend Developer
         </h3>
         <p className=" text-justify text-lg text-white mt-6">

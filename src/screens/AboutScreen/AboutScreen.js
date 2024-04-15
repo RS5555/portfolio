@@ -51,8 +51,8 @@ export default function AboutScreen() {
             onClick={handleMainSkills}
             className={`mb-3 py-2 px-4 rounded flex shadow-md ${
               mainSkill
-                ? "bg-gradient-to-br from-rose-600 to-fuchsia-600 text-white font-bold"
-                : "bg-neutral-100 text-gray-700 hover:bg-gray-400 hover:shadow-lg"
+                ? "bg-gradient-to-br from-rose-600 to-fuchsia-600 text-white font-bold "
+                : " border-2 border-white text-white font-bold hover:bg-gradient-to-br from-rose-600 to-fuchsia-600 hover:shadow-lg"
             }`}
           >
             Main Skills
@@ -62,7 +62,7 @@ export default function AboutScreen() {
             className={`ml-5 mb-3 py-2 px-4 rounded flex shadow-md ${
               education
                 ? "bg-gradient-to-br from-rose-600 to-fuchsia-600 text-white font-bold"
-                : "bg-neutral-100  text-gray-700 hover:bg-gray-400 hover:shadow-lg"
+                : " border-2 border-white text-white font-bold hover:bg-gradient-to-br from-rose-600 to-fuchsia-600 hover:shadow-lg"
             }`}
           >
             Education

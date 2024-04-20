@@ -16,7 +16,7 @@ export default function AboutScreen() {
   };
 
   return (
-    <div className="w-full h-full lg:flex flex-row bg-zinc-900 lg:pb-20 p-10">
+    <div id="about" className="w-full h-full lg:flex flex-row bg-zinc-900 lg:pb-20 p-10">
       <div className="lg:mb-10 lg:w-[50%] lg:h-auto h-[250px]  flex flex-col justify-end items-center relative">
         <div className="bg-slate-800 lg:w-[80%] lg:h-[75%] w-[80%] h-[75%] absolute bottom-0 flex justify-center items-center">
           {/* White background div */}

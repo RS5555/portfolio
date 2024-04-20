@@ -6,7 +6,7 @@ import DesignServicesIcon from "@mui/icons-material/DesignServices";
 
 export default function ServicesScreen() {
   return (
-    <div className=" bg-black lg:h-[500px]">
+    <div id="services" className=" bg-black lg:h-[500px]">
       <div className="lg:w-full pl-20 pr-20 pt-14 ">
         <div className="w-full">
           <h1 className="bg-gradient-to-br from-rose-600 mb-2  to-fuchsia-600 text-transparent bg-clip-text lg:text-3xl text-2xl font-bold">
@@ -71,6 +71,8 @@ export default function ServicesScreen() {
             </div>
           </div>
         </section>
+
+        
       </div>
     </div>
   );

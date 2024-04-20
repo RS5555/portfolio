@@ -27,7 +27,7 @@ export default function HomeScreen() {
   };
 
   return (
-    <div className="w-full h-full lg:flex flex-row bg-black lg:pt-20 lg:pl-20 lg:pr-20 p-10 pt-32">
+    <div id="home" className="w-full h-full lg:flex flex-row bg-black lg:pt-20 lg:pl-20 lg:pr-20 p-10 pt-32">
       <div className="lg:w-[70%] w-full h-[550px] lg:h-[520px] flex flex-col items-start justify-center lg:text-start ">
         <div>
           <span className="lg:text-3xl text-2xl text-white">I'm</span>

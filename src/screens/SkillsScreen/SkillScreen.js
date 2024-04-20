@@ -13,8 +13,8 @@ import mySvg10 from "../../assets/SVG/javascript-1.svg";
 import mySvg11 from "../../assets/SVG/bitbucket-blue.svg";
 import "./SkillScreen.css";
 
-import Carousel from "react-grid-carousel";
-import { height } from "@mui/system";
+// import Carousel from "react-grid-carousel";
+// import { height } from "@mui/system";
 
 const SkillScreen = () => {
   const icons = [
@@ -122,27 +122,25 @@ const SkillScreen = () => {
 
 export default SkillScreen;
 
-{
-  /* <div className="">
-        <Carousel cols={4} rows={1} gap={2} loop autoplay={2000}>
-          {icons4.map((icon) => (
-            <Carousel.Item key={icon.id}>
-              <div
-                className="flex flex-col mx-auto justify-center items-center bg-zinc-900 h-[200px] w-[200px] shadow-md my-4 rounded-md"
-                style={{ padding: "20px" }}
-              >
-                <div className="w-[150px] h-[150px] flex justify-center items-center">
-                  <img src={icon.src} alt={icon.alt} width="100" />
-                </div>
-                <div>
-                  <p className="text-center">{icon.alt}</p>
-                </div>
-              </div>
-            </Carousel.Item>
-          ))}
-        </Carousel>
-      </div> */
-}
+//  <div className="">
+//         <Carousel cols={4} rows={1} gap={2} loop autoplay={2000}>
+//           {icons4.map((icon) => (
+//             <Carousel.Item key={icon.id}>
+//               <div
+//                 className="flex flex-col mx-auto justify-center items-center bg-zinc-900 h-[200px] w-[200px] shadow-md my-4 rounded-md"
+//                 style={{ padding: "20px" }}
+//               >
+//                 <div className="w-[150px] h-[150px] flex justify-center items-center">
+//                   <img src={icon.src} alt={icon.alt} width="100" />
+//                 </div>
+//                 <div>
+//                   <p className="text-center">{icon.alt}</p>
+//                 </div>
+//               </div>
+//             </Carousel.Item>
+//           ))}
+//         </Carousel>
+//       </div> 
 
 // const icons4 = [
 //   { id: 3, src: mySvg2, alt: "React Native" },
